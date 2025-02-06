@@ -1,0 +1,12 @@
+{
+    "apiVersion": "webhook.certmanager.k8s.io/v1alpha1",
+    "kind": "Config",
+    "server": {
+        "ipAddress": "$A10_IP_ADDRESS",
+        "username": "$A10_USERNAME", 
+        "password": "$A10_PASSWORD",
+        "zone": "$A10_ZONE",
+        "dnsPort": "$A10_DNS_PORT",
+        "service": "$A10_SERVICE"
+    }
+}

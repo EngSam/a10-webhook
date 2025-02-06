@@ -1,0 +1,6 @@
+{
+    "baseURL": "https://10.108.252.211",
+    "username": "admin",
+    "password": "a10",
+    "zone": "gslb.irembo-test.org"
+}
